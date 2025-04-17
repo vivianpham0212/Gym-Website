@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivian's Gym Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="slide">
+      <div class="item" style="background-image: url('1.jpg')">
+        <div class="content">
+          <div class="name">Meal Tracking</div>
+          <div class="des">Cập nhật chế độ ăn uống, dinh dưỡng mỗi ngày cho khách hàng.</div>
+          <button>See more</button>
+        </div>
+      </div>
+      <div class="item" style="background-image: url('4.jpg')">
+        <div class="content">
+          <div class="name">Workout Summary</div>
+          <div class="des">Tổng hợp lịch tập, bài tập theo tuần và tiến độ giảm cân.</div>
+          <button>See more</button>
+        </div>
+      </div>
+      <div class="item" style="background-image: url('3.jpg')">
+        <div class="content">
+          <div class="name">Weekly Reports</div>
+          <div class="des">Báo cáo tự động gửi mỗi tuần cho khách: calo, chỉ số, feedback.</div>
+          <button>See more</button>
+        </div>
+      </div>
+      <div class="item" style="background-image: url('5.jpg')">
+        <div class="content">
+          <div class="name">Zalo Bot</div>
+          <div class="des">Ý tưởng tích hợp AI Bot để gửi tin nhắn theo dõi mỗi ngày qua Zalo.</div>
+          <button>See more</button>
+        </div>
+      </div>
+      <div class="item" style="background-image: url('6.jpg')">
+        <div class="content">
+          <div class="name">Future App</div>
+          <div class="des">Phát triển app riêng cho khách theo dõi tiến độ ăn uống & tập luyện.</div>
+          <button>See more</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+      <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
